@@ -14,7 +14,7 @@ export default function Header() {
             
             <div id="open-modal" className="modal-window">
                 <div>
-                    <a href="#" title="Close" className="modal-close">
+                    <a href="/" className="modal-close">
                         Close    
                     </a>
                         <h1>Welcome</h1>
@@ -31,7 +31,7 @@ export default function Header() {
                             <button type="submit" id="submit-button">LOGIN</button>
                         </div>
                         <div id="forgot-pass">
-                            <a href="#">Forgot password?</a>
+                            <a href="/">Forgot password?</a>
                         </div>
                     </div>
                 </div>
