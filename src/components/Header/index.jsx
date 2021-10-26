@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-import './app.js';
 
 export default function Header() {
     return (
