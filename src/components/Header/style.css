@@ -45,7 +45,7 @@
 }
 
 .modal-close {
-    fill: #aaa;
+    color: #aaa;
     line-height: 20px;
     font-size: 80%;
     position: absolute;
@@ -57,7 +57,7 @@
 }
 
 .modal-close:hover {
-    fill: black;
+    color: black;
 }
   
   /* Demo Styles */

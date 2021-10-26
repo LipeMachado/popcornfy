@@ -16,7 +16,7 @@ export default function Header() {
             <div id="open-modal" className="modal-window">
                 <div>
                     <a href="#" title="Close" className="modal-close">
-                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M12 11.293l10.293-10.293.707.707-10.293 10.293 10.293 10.293-.707.707-10.293-10.293-10.293 10.293-.707-.707 10.293-10.293-10.293-10.293.707-.707 10.293 10.293z"/></svg>
+                        Close    
                     </a>
                         <h1>Welcome</h1>
                     <div className="formArea">
@@ -34,9 +34,9 @@ export default function Header() {
                         <div id="forgot-pass">
                             <a href="#">Forgot password?</a>
                         </div>
-                    </div>                   
-                </div>  
-            </div>   
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
