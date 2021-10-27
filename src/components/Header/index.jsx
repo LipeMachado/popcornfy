@@ -6,7 +6,7 @@ export default function Header({black}) {
         <header className={black ? 'black' : ' '}>
             <div className="header--logo">
                 <a href="/">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1920px-Netflix_2015_logo.svg.png" alt="Netflix" />
+                    <img src="https://fontmeme.com/permalink/211027/179cba729689a99d8dce70daf62b8bba.png" alt="Moviefy" />
                 </a>
             </div>
 

@@ -2,7 +2,6 @@ import React from 'react';
 import './style.css';
 
 export default function FeatureMovie({item}) {
-    console.log(item);
 
     let firtDate = new Date(item.first_air_date);
     let genres = [];
