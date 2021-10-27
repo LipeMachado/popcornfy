@@ -1,11 +1,10 @@
 import './App.css';
 import React from 'react';
-// import Main from './components/Main';
-import HomePage from './pages/Homepage';
+import Routes from './Routes';
 
 function App() {
     return (
-        <HomePage />
+        <Routes />
     );
 }
 

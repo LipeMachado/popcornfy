@@ -1,0 +1,47 @@
+.modal-window {
+    position: fixed;
+    background-image: url(../../images/backgroundLogin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+
+.modal-window > div {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: var(--branco);
+}
+
+.modal-window header {
+    font-weight: bold;
+}
+
+.modal-window h1 {
+    font-size: 150%;
+    margin: 0 0 15px;
+    color: var(--preto);
+}
+
+.modal-close {
+    color: #aaa;
+    line-height: 20px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 20px;
+    width: 70px;
+    text-decoration: none;
+}
+
+.modal-close:hover {
+    color: var(--preto);
+}

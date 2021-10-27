@@ -45,8 +45,8 @@ export default function FeatureMovie({item}) {
                     </div>
                     
                     <div className="featured--buttons">
-                        <a href={`/watch/${item.id}`} className="featured--watchButton">► Assistir</a>
-                        <a href={`/list/add/${item.id}`} className="featured--myListButton">+ Minha Lista</a>
+                        <a href={`/`} className="featured--watchButton">► Assistir</a>
+                        <a href={`/`} className="featured--myListButton">+ Minha Lista</a>
                     </div>
 
                     <div className="featured--genres">

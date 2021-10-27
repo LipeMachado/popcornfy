@@ -1,18 +1,10 @@
 import React from 'react';
 import './style.css';
 
-export default function Header() {
+export default function LoginPage() {
     return (
         <div>
-            <div className="container">
-                <div className="box">
-                    <div className="interior">
-                        <a className="btn" href="#open-modal"><span className="btnText">Netlify</span></a>
-                    </div>
-                </div>
-            </div>
-            
-            <div id="open-modal" className="modal-window">
+            <div className="modal-window">
                 <div>
                     <a href="/" className="modal-close">
                         Close    

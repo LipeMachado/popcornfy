@@ -18,7 +18,7 @@ body {
 
 .movieRow--listarea {
     overflow-x: hidden;
-    padding-left: 30px;
+    padding-left: 5px;
 }
 
 .movieRow--list {
@@ -27,26 +27,28 @@ body {
 
 .movieRow--item {
     display: inline-block;
-    width: 150px;
+    width: 200px;
     cursor: pointer;
 }
 
 .movieRow--item img {
     width: 100%;
-    height: 225px;
+    height: 300px; 
     transform: scale(0.9);
     transition: all 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .movieRow--item img:hover {
     transform: scale(1);
+    border: 3px solid var(--vermelhoText);
 }
 
 .movieRow--left,
 .movieRow--right {
     position: absolute;
     width: 40px;
-    height: 225px;
+    height: 300px;
     background-color: rgba(0, 0, 0, 60%);
     z-index: 99;
     display: flex;

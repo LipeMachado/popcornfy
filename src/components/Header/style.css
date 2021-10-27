@@ -14,7 +14,7 @@ header {
 }
 
 header.black {
-    background-color: #141414;
+    background-color: rgba(14, 14, 14, 98%);
 }
 
 .header--logo {
