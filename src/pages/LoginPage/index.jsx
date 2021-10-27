@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 
 export default function LoginPage() {
     return (
@@ -7,9 +8,9 @@ export default function LoginPage() {
             <div className="modal-window">
                 <div>
                     <a href="/" className="modal-close">
-                        Close    
+                        <ExitToAppIcon />
                     </a>
-                        <h1>Welcome</h1>
+                        <h1>Login</h1>
                     <div className="formArea">
                         <div id="input-area">
                             <div className="f-inp">
@@ -20,10 +21,12 @@ export default function LoginPage() {
                             </div>
                         </div>
                         <div id="submit-button-cvr">
-                            <button type="submit" id="submit-button">LOGIN</button>
+                            <a href="/home">
+                                <button type="submit" id="submit-button">LOGIN</button>
+                            </a>
                         </div>
                         <div id="forgot-pass">
-                            <a href="/">Forgot password?</a>
+                            <a href="/login">Forgot password?</a>
                         </div>
                     </div>
                 </div>

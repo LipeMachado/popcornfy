@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 .modal-window {
     position: fixed;
     background-image: url(../../images/backgroundLogin.png);
