@@ -41,7 +41,6 @@ export default function MovieRow({title, items}) {
             </div>
 
             <div className="movieRow--listarea">
-                
                 <div className="movieRow--list" style={{
                     marginLeft: scrollX,
                     width: items.results.length * 200
@@ -52,7 +51,6 @@ export default function MovieRow({title, items}) {
                         </div>
                     ))}
                 </div>
-
             </div>
         </div>
     );

@@ -5,7 +5,7 @@ import Homepage from './pages/Homepage';
 import MainPage from './pages/MainPage';
 import LoginPage from './pages/LoginPage';
 
-const PrivateRoute = ({ component: Component, ... rest }) => (
+const PrivateRoute = ({ component: Component, ...rest }) => (
     <Route {... rest} render={props=>(
         isAuthenticated() ? (
             <Component {... props} />

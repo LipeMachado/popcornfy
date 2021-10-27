@@ -6,7 +6,7 @@ export default function Header({black}) {
         <header className={black ? 'black' : ' '}>
             <div className="header--logo">
                 <a href="/">
-                    <img src="https://fontmeme.com/permalink/211027/179cba729689a99d8dce70daf62b8bba.png" alt="Moviefy" />
+                    <img src="https://fontmeme.com/permalink/211028/e033ac7a4d7dbfffc57687178be93afd.png" alt="Moviefy" />
                 </a>
             </div>
 
