@@ -60,7 +60,6 @@ export default function Homepage() {
 
           <footer>
               Desafio Provi <span role="img" aria-label="coração">❤️</span> feito por Felipe Machado<br/>
-              Referência: B7Web<br/>
               Dados da API pegos do site Themoviedb.org
           </footer>
 
