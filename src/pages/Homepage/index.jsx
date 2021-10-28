@@ -40,7 +40,7 @@ export default function Homepage() {
         window.addEventListener('scroll', scrollListener);
 
         return () => {
-        window.removeEventListener('scroll', scrollListener);
+          window.removeEventListener('scroll', scrollListener);
         }
     }, []);
 

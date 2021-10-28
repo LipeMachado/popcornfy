@@ -4,7 +4,7 @@ a {
 
 .modal-window {
     position: fixed;
-    background-image: url(../../images/backgroundLogin.png);
+    background-image: url(../../images/backgroundLoginBlur.png);
     background-repeat: no-repeat;
     background-size: cover;
     top: 0;

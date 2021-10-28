@@ -11,10 +11,12 @@ html {
 body {
     font-family: 'Muli', sans-serif;
     font-weight: 300;
-    background-color: var(--preto);
 }
   
 .container {
+    background-image: url(../../images/backgroundLoginBlur.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: grid;
     justify-content: center;
     align-items: center;
